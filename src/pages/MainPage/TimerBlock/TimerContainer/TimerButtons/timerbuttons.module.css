@@ -1,0 +1,28 @@
+.buttonsGroup {
+  display: flex; 
+}
+
+.buttonGreen {
+  margin-right: 25px;
+  width: 145px;
+}
+
+.buttonStop {
+  width: 138px;
+  color: #DC3E22 !important;
+  border: 2px solid #DC3E22 !important;
+  background-color: transparent !important;
+
+  transition: .15s ease-in-out;
+}
+
+.buttonStop:disabled {
+  color: #C4C4C4 !important;
+  border-color: #C4C4C4 !important;
+}
+
+.buttonStop:not(:disabled):hover,
+.buttonStop:not(:disabled):focus-visible {
+  background-color: #DC3E22 !important;
+  color: #FFFFFF !important;
+}

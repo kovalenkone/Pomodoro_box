@@ -1,0 +1,30 @@
+.block {
+  padding: 25px 0 0 0 !important;
+  grid-column: 1 / 4;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blockTop {
+  display: flex;
+  align-items: center;
+}
+
+.counter {
+  margin-left: 17px;
+  font-size: 24px;
+  color: #999999;
+}
+
+.blockBottom {
+  margin-top: auto;
+  padding: 9px 0;
+  text-align: center;
+  width: 100%;
+  background-color: #DC3E22;
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: 700;
+}

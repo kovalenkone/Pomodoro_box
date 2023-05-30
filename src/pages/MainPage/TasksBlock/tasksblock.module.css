@@ -1,0 +1,25 @@
+.tasks {
+  margin-right: 16px;
+  max-width: 508px;
+}
+
+.title {
+  margin-bottom: 3px;
+  font-style: 24px;
+  line-height: 33px;
+  font-weight: 700;
+}
+
+.list {
+  padding-left: 15px;
+  margin-bottom: 25px;
+  list-style: disc;
+}
+
+.item {
+  line-height: 33px;
+}
+
+.item::marker {
+  color:#B7280F;
+}

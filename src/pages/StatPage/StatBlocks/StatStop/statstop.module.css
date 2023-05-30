@@ -1,0 +1,25 @@
+.block {
+  grid-column: 9 / 13;
+
+  display: flex;
+  justify-content: space-between  ;
+}
+
+.colorBlock {
+  background-color: #C5F1FF !important;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.count {
+  font-size: 64px;
+}

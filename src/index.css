@@ -1,0 +1,77 @@
+@import url('https://fonts.cdnfonts.com/css/sf-ui-display');
+
+html {
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,h2,h3 {
+  margin: 0;
+}
+
+button {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+button:focus-visible {
+  outline: none;
+}
+
+body {
+  font-family: 'SF UI Display', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  color: #333333;
+}
+
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+  max-width: 1310px;
+}
+
+.commonButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 0;
+  line-height: 17px;
+  font-weight: 500;
+  color: #FFFFFF;
+  background-color: #A8B64F;
+  border: none;
+  cursor: pointer;
+
+  transition: .15s ease-in-out;
+}
+
+.commonButton:focus-visible,
+.commonButton:hover {
+  background-color: #899441;
+}
+
+.statBlock {
+  padding: 25px;
+  background-color: #F4F4F4;
+}

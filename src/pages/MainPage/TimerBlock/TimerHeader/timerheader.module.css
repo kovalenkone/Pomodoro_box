@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 19px 40px;
+  color: #FFFFFF;
+  font-weight: 700;
+
+  transition: .15s ease-in-out;
+}
+
+.headerGrey {
+  background-color: #C4C4C4;
+}
+
+.headerRed {
+  background-color: #DC3E22;
+}
+
+.headerGreen {
+  background-color: #A8B64F;
+}

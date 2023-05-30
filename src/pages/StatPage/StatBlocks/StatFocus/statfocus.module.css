@@ -1,0 +1,25 @@
+.block {
+  grid-column: 1 / 5;
+
+  display: flex;
+  justify-content: space-between  ;
+}
+
+.colorBlock {
+  background-color: #FFDDA9 !important;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.percent {
+  font-size: 64px;
+}

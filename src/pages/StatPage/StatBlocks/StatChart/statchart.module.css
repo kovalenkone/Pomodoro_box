@@ -1,0 +1,84 @@
+.block {
+  position: relative;
+  grid-column: 4 / 13;
+  grid-row: 1 / 3;
+
+  padding: 0 !important;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.grid {
+  margin-top: 84px;
+  margin-right: 110px;
+}
+
+.line {
+  margin-bottom: 83px;
+  height: 1px;
+  background-color: rgba(51, 51, 51, .2);
+}
+
+.time {
+  position: absolute;
+  right: 25px;
+  transform: translateY(-50%);
+  font-size: 12px;
+}
+
+.weekdays {
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+  padding: 11px 109px 11px 56px;
+  background-color: #ECECEC;
+}
+
+.weekday {
+  position: relative;
+  width: 77px;
+  text-align: center;
+}
+
+.day:hover {
+  color: #DC3E22;
+}
+
+.day {
+  width: 100%;
+  font-size: 24px;
+  color: #999999;
+
+  transition: .12s ease-in-out;
+}
+
+.active {
+  color: #DC3E22;
+}
+
+.chart {
+  position: absolute;
+  bottom: 100%;
+  margin-bottom: 11px;
+  width: 100%;
+  cursor: pointer;
+
+  transition: .12s ease-in-out;
+}
+
+.chart:hover {
+  background-color: #EE735D;
+}
+
+.chartSelected {
+  background-color: #DC3E22;
+}
+
+.chartEmpty {
+  background-color: #C4C4C4;
+}
+
+.chartFill {
+  background-color: #EA8A79;
+}

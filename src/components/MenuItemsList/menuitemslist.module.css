@@ -1,0 +1,31 @@
+.listContainer {
+  position: absolute;
+  padding: 7px 0;
+  width: 165px;
+  border: 1px solid #C4C4C4;
+  transform: translate(-42%, 10px);
+  background-color: #FFFFFF;
+  z-index: 10;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  width: 100%;
+  cursor: pointer;
+  transition: .2s ease-in-out;
+}
+
+.button:hover {
+  background-color: #F4F4F4;
+}
+
+.text {
+  margin-left: 10px;
+}

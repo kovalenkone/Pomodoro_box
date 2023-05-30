@@ -1,0 +1,36 @@
+.item {
+  display: flex;
+  align-items: center;
+  padding: 19px 0;
+  border-top: 1px solid #E4E4E4;
+  border-bottom: 1px solid #E4E4E4;
+}
+
+.item:not(:first-child) {
+  margin-top: -1px;
+}
+
+.count {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  width: 25px;
+  height: 25px;
+  border: 1px solid #C4C4C4;
+  border-radius: 50%;
+}
+
+.title {
+  border: 0;
+  background-color: #FFFFFF;
+  font-size: 16px;
+} 
+
+.title:focus {
+  outline: none;
+}
+
+.dropdown {
+  margin-left: auto;
+}
